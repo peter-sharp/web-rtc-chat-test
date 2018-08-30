@@ -1,0 +1,24 @@
+body {
+  background-color: #28f;
+  color: #fff;
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  border: none;
+  border-bottom: solid 2px #888;
+  background-color: #ccc;
+  box-shadow: 0 2px 3px #333;
+}
+.messages {
+  min-height: 100px;
+  background-color: rgba(0,0,0,0.2);
+  border-top: solid rgba(0,0,0, 0.6);
+}

@@ -10,9 +10,11 @@
     <div id="messages" class="messages">
     </div>
     <form id="message_form">
-      <textarea name="message" disabled></textarea>
+      <textarea name="message" placeholder="Press Start, enter some text, then press Send." disabled></textarea>
       <button type="submit" name="send">Send</button>
     </form>
+    <output id="magnet"></output> <button id="start_button">Start</button>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
     <script src="/client.js"></script>
   </body>
 </html>
